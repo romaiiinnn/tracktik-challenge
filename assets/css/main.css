@@ -1,0 +1,81 @@
+.page-enter-active,
+.page-leave-active {
+  transition-property: opacity;
+  transition-timing-function: ease-in-out;
+  transition-duration: 150ms;
+}
+.page-enter,
+.page-leave-to {
+  opacity: 0;
+}
+
+.mdl-layout__header, .mdl-layout__header-row {
+	background-color: #2a77e4;
+	color: white;	
+}
+
+.demo-content {
+	padding: 0;
+}
+
+.demo-cards {
+	margin: 0;
+	width: 100%;
+}
+
+.circle-img {
+	border-radius: 50%;
+	width: 5em;
+	height: 5em;
+}
+
+.middle {
+    margin-top:    auto !important;
+    margin-bottom: auto !important;
+}
+
+.center {
+	display: block;
+	text-align: center;
+	margin-left:  auto;
+	margin-right: auto;
+}
+
+.right {
+	display: block;
+	text-align: right;
+	margin-left:  auto;
+	margin-right: 0;
+}
+
+.filters {
+	color: black;
+	background-color: white;
+	padding: 0em 1em;
+	height: 3em
+}
+
+.black {
+	color: black;
+}
+
+.separator {
+	margin: 0;
+}
+
+.gray {
+	color: gray;
+}
+
+.bckg-color-dark {
+	background-color: #424242;
+}
+
+.v-lazy-image {
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.v-lazy-image-loaded {
+  opacity: 1;
+}
